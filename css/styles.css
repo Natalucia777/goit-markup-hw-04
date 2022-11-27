@@ -3,7 +3,7 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --background-page-color: #ffffff;
-  --background-hero-color: #2f303a;
+  --background-hero-color: #C4C4C4;
   --team-action-color: #f5f4fa;
   --background-bottom-color: #2f303a;
   --logo-top-color: #000000;
@@ -134,7 +134,16 @@ img {
 }
 /* hero */
 .hero {
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero-bg.jpg');
   background-color: var(--background-hero-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }
 .hero-box {
   flex-direction: column;
@@ -255,6 +264,8 @@ button.hero-action {
 .activity-img.picture {
   margin-bottom: 0;
 }
+
+
 /* team */
 .team {
   background-color: var(--team-action-color);
@@ -298,7 +309,31 @@ button.hero-action {
 .team .text {
   font-size: 16px;
   line-height: 1.19;
+  margin-bottom: 16px;
 }
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-soc-items {
+  width: 44px;
+  height: 44px;
+}
+.team-soc-items:not(:last-child) {
+  margin-right: 10px;
+}
+.team-soc-link {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  display: block;
+  background-color: var(--background-page-color);
+  border-radius: 50%;
+}
+
+    background-color: var(--accent-text-color);
+
 /* futter */
 .bottom {
   background-color: var(--background-bottom-color);
