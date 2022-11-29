@@ -226,9 +226,32 @@ button.hero-action {
 .list-benefits {
   margin-right: 30px;
   padding: 0;
+
 }
 .list-benefits:nth-child(4) {
   margin-right: 0;
+}
+.benefits-img {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 270px;
+  height: 120px;
+  /* flex-direction: row; */
+  margin-bottom: 30px;
+  padding: 0;
+  background-color: var(--team-action-color);
+  background-image:
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.benefits-svg {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 65.32px;
+  height: 70px;
 }
 .text {
   display: inline-block;
