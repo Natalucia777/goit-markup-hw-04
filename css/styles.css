@@ -44,10 +44,6 @@ img {
   padding-left: 0;
   margin-top: 0;
 }
-
-
-
-
 .link {
   color: var(--title-text-color);
 }
@@ -68,15 +64,11 @@ img {
   display: flex;
   fill: var(--accent-text-color);
 }
-
-
-
 .top-adress {
   color: var(--primmary-text-color);
   display: flex;
   flex-direction: row;
   align-items: center;
-
 }
 .top-adress:hover,
 .top-adress:focus {
@@ -106,29 +98,6 @@ img {
 .adress-svg-phone:focus {
   fill: var(--accent-text-color);
 }
-/* .join-soc-link {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  display: flex;
-  background-color: rgba(255, 255, 255, 0.1);
-  fill: var(--background-page-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-}
-
-.join-soc-link:hover,
-.join-soc-link:focus {
-  background-color: var(--accent-text-color);
-  fill: var(--background-page-color);
-
-} */
-
-
-
-
 .top-tel {
   color: var(--primmary-text-color);
   display: flex;
@@ -139,14 +108,6 @@ img {
 .top-tel:focus {
   color: var(--accent-text-color);
 }
-
-
-
-
-
-
-
-
 /* logo */
 .logo {
   display: flex;
@@ -223,7 +184,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 .hero-box {
   flex-direction: column;
@@ -281,6 +241,8 @@ button.hero-action {
 .list-title {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
@@ -303,8 +265,13 @@ button.hero-action {
   color: var(--title-text-color);
 }
 .list-benefits {
-  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0 30px 0 0;
   padding: 0;
+
 
 }
 .list-benefits:nth-child(4) {
@@ -312,18 +279,17 @@ button.hero-action {
 }
 .benefits-img {
   display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   margin: 0;
   width: 270px;
   height: 120px;
-  /* flex-direction: row; */
   margin-bottom: 30px;
-  padding: 0;
   background-color: var(--team-action-color);
   background-image:
   border-radius: 4px;
-  justify-content: center;
-  align-items: center;
+  
 }
 .benefits-svg {
   display: flex;
@@ -395,8 +361,7 @@ button.hero-action {
   flex-direction: column;
   margin-right: 30px;
   align-items: center;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--background-page-color);
 }
@@ -439,11 +404,62 @@ button.hero-action {
 .team-soc-link:focus {
   background-color: var(--accent-text-color);
   fill: var(--background-page-color);
-
 }
-
-
-
+/* clients */
+.clients-box {
+  display: flex;
+  flex-direction: column;
+}
+.list-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+.list-clients {
+  display: flex;
+  margin: 0 30px 0 0;
+  padding: 0;
+  border: 1px solid var(--soc-icons-color);
+  width: 170px;
+  height: 92px;
+}
+.list-clients:nth-child(6) {
+  margin-right: 0; 
+}
+.clients-link {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  fill: var(--soc-icons-color);
+  justify-content: center;
+  align-items: center;
+}
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--accent-text-color);
+  fill: var(--accent-text-color);
+}
+.clients-img {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.clients-svg {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 170px;
+  height: 92px;
+} 
 /* futter */
 .bottom {
   background-color: var(--background-bottom-color);
