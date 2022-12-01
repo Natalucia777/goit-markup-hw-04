@@ -416,7 +416,7 @@ button.hero-action {
   display: flex;
   margin: 0 30px 0 0;
   padding: 0;
-  border: 1px solid var(--soc-icons-color);
+  /* border: 1px solid var(--soc-icons-color); */
   width: 170px;
   height: 92px;
 }
@@ -431,6 +431,7 @@ button.hero-action {
   fill: var(--soc-icons-color);
   justify-content: center;
   align-items: center;
+  border: 1px solid var(--soc-icons-color);
 }
 .clients-link:hover,
 .clients-link:focus {
